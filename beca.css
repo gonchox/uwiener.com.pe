@@ -1,0 +1,242 @@
+nav{
+    background-color: #00b7bd;
+    height: 75px;
+    width: 100%;
+    margin-top: -8px;
+    margin-left: -8px;
+    padding-right: 16px;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+}
+
+#leftbox{
+    margin-left: 70px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+#foto{
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 0;
+    width: 60px;
+    height: 65px;
+}
+
+#fotodiv{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 60px;
+}
+
+#middlebox{
+    margin-left: 60px;
+    margin-top: 7px;
+    
+}
+
+#rightbox{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 10px;
+    margin-left: 986px;
+    margin-top: 20px;
+}
+
+#rightbox .tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+#rightbox:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 45px 0px 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+     clear: both;
+    padding-top: 100px;
+}
+
+#fecha-hora{
+    color: #6c757d !important;
+    display: inline-block;
+    margin-bottom: .5rem;
+    text-align: right !important;
+    box-sizing: border-box;
+    margin-left: 1130px;
+}
+body{
+    font-family: Verdana, Arial;
+    font-size: 11px;
+}
+
+#antesTabla1{
+  margin-left: 500px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+}
+
+#tabla1{
+    border-collapse: collapse; /* Colapsar bordes de celda */
+    width: 100%; /* Ancho completo de la tabla */
+}
+
+#tabla1div{
+    margin:  auto; /* Margen automático horizontal */
+    width: 1000px; /* Ajustar el ancho al contenido de la tabla */
+}
+
+#tabla1 th, #tabla1 td {
+    border: 1px solid #dee2e6; /* Borde de celda */
+    padding: 15px; /* Espaciado interno de celda */
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+#tabla1 th {
+    background-color: #00b7bd; /* Color de fondo para encabezados */
+    text-align: center;
+    color: #fff;
+}
+
+#documentosadicionales{
+    margin-left: 450px;
+}
+
+li{
+    padding-top: 5px;
+}
+
+#amarillo{
+    background-color: #fff0bf;
+    padding: 15px;
+    margin: auto;
+    width: 1000px;
+}
+
+#formcheck{
+    padding: 15px;
+    margin-left: 500px;
+    width: 420px;
+}
+
+#formselect{
+    padding: 15px;
+    margin-left: 1000px;
+    width: 450px;
+    margin-top: -60px;
+    padding-bottom: 20px;
+}
+
+#cboBeca{
+    padding: 10px;
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+#registro{
+    margin-left: 440px;
+}
+
+#table2div{
+    margin:  auto; /* Margen automático horizontal */
+    width: 1110px; /* Ajustar el ancho al contenido de la tabla */
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+#tabla2{
+    border-collapse: collapse; /* Colapsar bordes de celda */
+    width: 100%; /* Ancho completo de la tabla */
+}
+
+#tabla2 th, #tabla2 td {
+    border: 1px solid #dee2e6; /* Borde de celda */
+    padding: 15px; /* Espaciado interno de celda */
+    text-align: center; /* Alinear texto a la izquierda */
+}
+
+#tabla2 th {
+    background-color: #1d428a; /* Color de fondo para encabezados */
+    text-align: center;
+    color: #fff;
+}
+
+#footer{
+    margin-left: 400px;
+    padding-bottom: 50px;
+}
+
+#sidebar {
+    width: 12%;
+    min-height: 100vh; /* Adjusted to make sidebar height responsive */
+    background: #666;
+    padding: 0;
+    top: 75px;
+    left: -5px;
+    position: fixed;
+    z-index: 1000;
+}
+
+#sidelist {
+    margin: 0; /* Removed negative margin-top */
+    padding: 0; /* Added to remove default padding */
+}
+
+#sidelist li {
+    padding: 10px; /* Adjusted padding for uniform spacing */
+    border-top: 1px solid #fff; /* Added border-top to separate list items */
+    text-align: left;
+    color: #fff;
+    position: relative;
+}
+
+#sidelist li ul, .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background: #444;
+    padding: 10px;
+    z-index: 1000; /* Ensure submenus appear above other content */
+}
+
+.menu-option.show-submenu .submenu {
+    display: block;
+}
+
+.submenu-open ~ .menu-option {
+    margin-top: 15px; /* Adjust as needed */
+}
+
+.pdf{
+    width: 18px;
+    height: 18px;
+    padding-left: 5px;
+    padding-top: 8px;
+}
